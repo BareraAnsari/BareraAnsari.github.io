@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Open+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Open+Sans&display=swap');
 
   *, *::before, *::after {
     box-sizing: border-box;
@@ -13,7 +13,7 @@
     box-shadow: 0 0 20px #00f9ff88;
     border: 1px solid #00fffbb3;
     backdrop-filter: blur(8px);
-    margin: 160px auto 0 auto;
+    margin-top: 160px;
   }
 
   h1 {
@@ -114,7 +114,7 @@
     }
   }
   #map {
-    height: 500px;
+    height: 400px;
     width: 100%;
     max-width: 700px;
     margin: 20px auto;
@@ -134,7 +134,7 @@
     }
     form,
     .map-container {
-      max-width: 600px;
-      min-height: auto;
+      flex: 1 1 100%;
+      min-height: 300px;
     }
   }
