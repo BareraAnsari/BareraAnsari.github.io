@@ -52,7 +52,7 @@
   const map = L.map('map').setView([37.7749, -122.4194], 13); // Example: San Francisco coords
   // Set the tile layer to OpenStreetMap tiles
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
+    maxZoom: 50,
     attribution: '© OpenStreetMap contributors'
   }).addTo(map);
   // Add a marker with popup at the location
